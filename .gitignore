@@ -1,1 +1,2 @@
-*.csv
+*.gz
+upload_data.py
