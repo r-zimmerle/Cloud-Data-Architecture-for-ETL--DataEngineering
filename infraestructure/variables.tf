@@ -22,6 +22,6 @@ variable "database_name" {
   default = "database-rais-challenge"
 }
 
-variabel "aws_region" {
+variabe "aws_region" {
     default = "us-east-2"
 }
