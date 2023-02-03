@@ -1,4 +1,4 @@
-variable "base_bucket_name" {
+variable "bucket_name" {
   default = "datalake-xpe-rod-m1"
 }
 
@@ -20,4 +20,8 @@ variable "iam_arn" {
 
 variable "database_name" {
   default = "database-rais-challenge"
+}
+
+variable "aws_region" {
+    default = "us-east-2"
 }
