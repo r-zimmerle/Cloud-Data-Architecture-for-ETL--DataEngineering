@@ -6,8 +6,8 @@ provider "aws" {
 
 terraform {
     backend ""s3"" {
-        bucket = ""
-        key = "state/"
+        bucket = "terraform-state-xpe-rod"
+        key = "state/xpe/edc/mod1/terraform.tfstate"
         region = "us-east-2"
     }
 }
