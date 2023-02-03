@@ -1,4 +1,4 @@
-variable "base_bucket_name" {
+variable "bucket_name" {
   default = "datalake-xpe-rod-m1"
 }
 
