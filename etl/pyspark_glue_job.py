@@ -27,7 +27,7 @@ rais = (spark.read
                 .option("sep", ";")
                 .option("encoding","latin1")
                 .option("inferSchema", "true")
-                .load("s3://datalake-gp-igti-challenge-2023-01-production/RAIS-2020/raw/"))
+                .load("s3://datalake-xpe-rod-m1/RAIS-2020/raw/"))
 
 rais = (
     rais
@@ -125,7 +125,7 @@ rais = (
     .write.mode('overwrite')
     .partitionBy('ano', 'uf')
     .format('parquet')
-    .save('s3://datalake-gp-igti-challenge-2023-01-production/RAIS-2020/staging/')
+    .save('s3://datalake-xpe-rod-m1/RAIS-2020/staging/')
 )
 
 
