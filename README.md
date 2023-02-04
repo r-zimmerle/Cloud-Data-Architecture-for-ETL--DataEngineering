@@ -20,3 +20,5 @@
 - Once the architecture design is complete, create a repository on Github and upload the IaC code for infrastructure deployment.
 
 ### Solution Architecture:
+
+![fluxogram_data_engi](https://user-images.githubusercontent.com/43285106/216736575-004e1be4-4fbc-44cc-ac75-61319839f5b9.png)
